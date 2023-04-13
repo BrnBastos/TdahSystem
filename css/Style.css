@@ -1,0 +1,189 @@
+html{
+   scroll-behavior:smooth;
+}
+body{
+ background-color:#FFFFFF;	
+ 	background-size:auto;
+	font-family:arial;
+	margin:auto;
+}
+.header {
+	background-color:#F63959;
+	height:15.0vw;
+}
+#IBMicone{
+	height: 2.80vw;
+	margin-left: 1.5vw;
+	margin-top: 1.5vw;
+}
+
+.logo{
+	top:0;
+	left:0;
+	right:0;
+	margin-left:-0.0vw;
+	margin-top:0.0vw;
+}
+#logo{
+	width:15.021vw;
+}
+a{
+	color:#FFFFFF;
+    text-decoration-line: none;
+}
+a:hover{
+	text-decoration:bold;
+	color:#AFAFAF;
+}
+.navhome{
+	position:absolute;
+	width:4vw;
+	height:1vw;
+
+}
+#textohome{
+	margin-top:-1.5vw;
+	margin-left:9.8vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+.navsobre{
+	position:absolute;
+	width:40vw;
+	height:10vw;
+}
+#textosobre{
+	margin-top:-1.5vw;
+	margin-left:28.7vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+
+.navprojetos{
+	position:absolute;
+	width:4vw;
+	height:1vw;
+}
+#textoprojetos{
+	margin-top:-1.5vw;
+	margin-left:56.9vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+.navcontato{
+	position:absolute;
+}
+#textocontato{
+	margin-top:-1.5vw;
+	margin-left:75.6vw;
+	font-size:1.5vw;
+	font-family:arial ;
+	color:#FFFFFF;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  width: 1500px;
+  position: relative;
+  margin: auto;
+  max-width:59.083vw;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #0C3060;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+footer{
+	background-color:#F63959;
+	color:white;
+	max-height:40vw;
+}
+ #FacebookIcone{
+	 width:4%;
+	 height:20%;
+	 margin-left:82vw;
+	 margin-top: 0vw;
+	 
+ }
+ #LinkedinIcone{
+	  width:4%;
+	 height:20%;
+	 margin-left:82vw;
+ }
+ #InstaIcone{
+	 width:4%;
+	 height:20%;
+	 margin-left:82vw;
+ }
+#textohome2{
+	margin-top:-14vw;
+	margin-left:6.8vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+#textosobre2{
+	margin-top:3vw;
+	margin-left:6.8vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+
+#textoprojetos2{
+	margin-top:3vw;
+	margin-left:6.8vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+
+#textocontato2{
+	margin-top:3vw;
+	margin-left:6.8vw;
+	font-size:1.5vw;
+	font-family:arial ;
+}
+#subirTopo {
+	text-decoration: none;
+	background: #375252;
+	bottom: 1.563vw;
+	right: 1.563vw;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	padding: 0.781vw;
+	font-size: 0.781vw;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: fixed;
+	border: 0;
+	font-family: sans-serif;
+	opacity: .8;
+}
+
+#subirTopo:hover {
+	opacity:1;
+}
